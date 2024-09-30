@@ -1,0 +1,58 @@
+.dashboard-heading {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.key-metrics {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.students-heading {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.recent-items {
+  border: 1px dashed #00000044;
+  height: 20rem;
+  overflow-y: auto;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+  border-bottom: 1px solid #00000010;
+}
+
+.item-name {
+  width: 400px;
+}
+
+.item-status {
+  background-color: #00000010;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  font-size: 12px;
+  border: 1px dashed #00000044;
+}
+
+.item-status--done {
+  background-color: #00ff0010;
+  color: green;
+  border-color: green;
+}
+
+.item-status--pending {
+  background-color: #ff000010;
+  color: red;
+  border-color: red;
+}
+
+.item:hover {
+  background-color: #00000010;
+}
